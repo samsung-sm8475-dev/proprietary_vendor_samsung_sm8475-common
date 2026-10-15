@@ -1,0 +1,81 @@
+{
+  "config":{
+    "hw_platform": ["MTP"],
+    "soc_id": ["457", "530"]
+  },
+  "lidangle_0_platform":{
+    "owner": "lidangle",
+    ".orient":{
+      "owner": "lidangle",
+      "x":{ "type": "str", "ver": "0",
+        "data": "+y"
+      },
+      "y":{ "type": "str", "ver": "0",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "0",
+        "data": "-z"
+      }
+    },
+    ".lidangle":{
+      "owner": "lidangle",
+      ".config":{
+        "owner": "lidangle",
+        "k_acc":{ "type": "flt", "ver": "0",
+            "data": "0.1"
+        },
+        "k_lid":{ "type": "flt", "ver": "0",
+          "data": "0.08"
+        },
+       "upright_angle":{ "type": "flt", "ver": "0",
+          "data": "15.0"
+        },
+       "sah_var":{ "type": "flt", "ver": "0",
+          "data": "0.12"
+        },
+       "sah_mean":{ "type": "flt", "ver": "0",
+          "data": "0.35"
+        },
+       "orient":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+       "key_board_idx":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+	"max_angle":{ "type": "flt", "ver": "0",
+            "data": "180.0"
+        },
+        "flip_x_0":{ "type": "int", "ver": "0",
+            "data": "1"
+        },
+        "flip_x_1":{ "type": "int", "ver": "0",
+            "data": "0"
+        },
+        "flip_y_0":{ "type": "int", "ver": "0",
+            "data": "0"
+        },
+        "flip_y_1":{ "type": "int", "ver": "0",
+            "data": "0"
+        },
+        "stuck_ths":{ "type": "flt", "ver": "0",
+            "data": "7.9"
+        },
+        "stuck_t":{ "type": "flt", "ver": "0",
+            "data": "1.0"
+        },
+        "steady_acc_var_max":{ "type": "flt", "ver": "0",
+            "data": "0.000005"
+        },
+        "steady_gyr_var_max":{ "type": "flt", "ver": "0",
+            "data": "0.005"
+        },
+        "steady_t":{ "type": "flt", "ver": "0",
+            "data": "0.2"
+        },
+        "fine_tune":{ "type": "flt", "ver": "0",
+            "data": "1"
+        }
+      }
+    }
+  }
+}

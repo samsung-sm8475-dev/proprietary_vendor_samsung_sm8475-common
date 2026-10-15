@@ -1,0 +1,12 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK"],
+    "soc_id": ["457", "530"]
+  },
+  "sns_active_screen":{
+    "owner": "sns_active_screen",
+    "active_screen":{ "type": "int", "ver": "0",
+      "data": "2"
+    }
+  }
+}
